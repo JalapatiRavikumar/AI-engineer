@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-medical-50: #f0f9ff;
+  --color-medical-100: #e0f2fe;
+  --color-medical-600: #0284c7;
+  --color-medical-700: #0369a1;
+  --color-medical-900: #0c4a6e;
+  --color-slate-ink: #0f172a;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  background: linear-gradient(165deg, #f0f9ff 0%, #f8fafc 45%, #ecfeff 100%);
+  color: #1e293b;
+}
+
+#root {
+  min-height: 100vh;
+}
